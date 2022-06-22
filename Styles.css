@@ -1,0 +1,268 @@
+  body {
+    display: block;
+    overflow-x: hidden;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+   
+  nav {
+    background-color: #04268C;
+  }
+  .navbar-toggler{
+    color: #8C2656;
+    margin-left: 500px;
+  }
+ 
+  
+  .navbar-brand img {
+    width: 80px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000000;
+  }
+
+  .nav-item a{
+    color:#Fff;
+    text-decoration: none;
+  }
+
+  .nav-item a:hover{
+    color: #fff;
+  }
+
+  nav ul li{
+    padding: 6px;
+    margin: 5px;
+    border-radius: 15px;
+  }
+  
+  nav ul li:hover {
+    background-color: #8C2656;
+    transition: .5s;
+  }
+  
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 22px;
+    margin: auto 10px;
+  }
+
+  
+  .titulo_inicio{
+    font-size: 80px;
+    font-weight: bold;
+    color: #CC0909;
+    -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #FED819;
+  }
+  
+  .titulo_menu{
+    font-size: 80px;
+    font-weight: bold;
+    color: #CC0909;
+    text-align: center;
+  }
+  
+  .descripcion{
+    margin-bottom: 500px;
+    font-size: 30px;
+  }
+ 
+ 
+  .active{
+    background-color: #D90B42;
+  }
+  
+  .mt3{
+    text-align: center;
+    width: 100%;
+  }
+ 
+  
+  @media (min-width:320px) {
+    .carousel-caption{
+      transform: translateY(400px);
+    }
+  }
+
+  .card{
+    width: 100%;
+    margin: 5px;
+    padding: 0px;
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+ 
+  button{
+      background-color: #CC0909;
+      color: #fff;
+      border:  none;
+      border-radius: 15px;
+      margin:  0px auto;
+  }
+
+  button hover{
+      background-color: #FBDE0E;
+      color: #000;
+  }
+
+
+
+  .container_contacto{
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+  }
+   
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+  }
+
+  /* Modal Content */
+  .modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+  }
+
+  /* The Close Button */
+  .close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .modal-body {
+    padding: 2px 16px;
+  }
+
+  .centrado{
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .parrafo{
+    padding: 20px 80px;
+    text-align: center;
+  }
+
+  .parrafo a{
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .container_estadio{
+    padding: 20px 80px;
+  }
+
+
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+
+  @keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+  .Contenido_Productos {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  margin: 0px auto;
+}
+
+  th {
+    background-color: #04268C;
+    color: white;
+  }
+
+  th,
+  td {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  h2 {
+    color: #04268C;
+  }
+
+  .carrito{
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .total_input{
+    display: block;
+    margin-left: 15px;
+  }
+
+
+  
